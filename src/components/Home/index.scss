@@ -106,12 +106,12 @@
 
   .logo-container {
     position: relative;
-    width: 100px;
+    width: 600px;
     height: auto;
-    top: 50px;
+    top: 80px;
     right: 0;
     box-sizing: border-box;
-    margin: auto;
+    margin-left: calc(60% - 100px);
     left: 0;
   }
 
@@ -123,4 +123,18 @@
     left: 0;
     margin: auto;
   }
+}
+
+img.solid-logo{
+      margin-left: calc(50% - 100px);
+      margin-left: calc(70% - 100px);
+   
+    margin-top: calc(10% - 130px); 
+ 
+    right: 80%;
+    left: 80%;
+  
+    width: 30%;
+  height: 30%;
+    padding: 30px;
 }

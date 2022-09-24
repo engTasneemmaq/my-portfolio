@@ -3,9 +3,15 @@ import { Link } from 'react-router-dom'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
-import Logo from './Logo'
+
+
+import { useRef } from 'react'
+
+import LogoS from '../../assets/images/logo-s.jpg'
 
 const Home = () => {
+  const bgRef = useRef()
+  const solidLogoRef = useRef()
   const [letterClass, setLetterClass] = useState('text-animate')
 
   const nameArray = ['T', 'A', 'S', 'N', 'E', 'E', 'M']
@@ -61,7 +67,16 @@ const Home = () => {
             CONTACT ME
           </Link>
         </div>
-        <Logo />
+        <div className="logo-container" ref={bgRef}>
+      <img
+        className="solid-logo"   
+        ref={solidLogoRef}
+        src={LogoS}
+        alt="JavaScript,  Developer"
+      />
+
+    </div>
+      
 
       </div>
 
