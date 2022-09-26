@@ -146,6 +146,7 @@ import './index.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faCss3,
+  faDelicious,
   faGitAlt,
   faGithub,
   faHtml5,
@@ -157,7 +158,7 @@ import {
   
    faWhatsapp,
 } from '@fortawesome/free-brands-svg-icons'
-import { faAirFreshener, faGamepad, faList, faPlane, faStore } from '@fortawesome/free-solid-svg-icons'
+import { faAirFreshener, faDollyBox, faGamepad, faHandsHelping, faList, faPlane, faStore } from '@fortawesome/free-solid-svg-icons'
 
 const Work = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -174,7 +175,7 @@ const Work = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['M', 'y',' ', 'P', 'r', 'o', ' j', 'e', 'c','t']}
+              strArray={['M', 'y',' ', 'P', 'r', 'o', ' j', 'e', 'c','t','s']}
               idx={15}
             />
           </h1>
@@ -225,6 +226,15 @@ const Work = () => {
             />
               <a href="https://630e68fb27a83a0095544e86--loquacious-dragon-11d290.netlify.app/" target="_blank">    
               <FontAwesomeIcon icon= {faList} color="#FFA500" fontSize={30} /> </a>
+              </h2>
+              <h2 align="left">
+              <AnimatedLetters
+              letterClass={letterClass}
+              strArray={['M', 'r',' ', 'D', 'e', 'l', 'i','v','e','r','y']}
+              idx={15}
+            />
+              <a href="https://github.com/WISTA02/Mr.Delivery" target="_blank">    
+              <FontAwesomeIcon icon= {faDollyBox} color="#FFA500" fontSize={30} /> </a>
               </h2>
         </div>
         </div>

@@ -7,7 +7,7 @@ import './index.scss'
 
 import { useRef } from 'react'
 
-import LogoS from '../../assets/images/logo-s.jpg'
+import work3 from '../../assets/images/work3.png'
 
 const Home = () => {
   const bgRef = useRef()
@@ -71,7 +71,7 @@ const Home = () => {
       <img
         className="solid-logo"   
         ref={solidLogoRef}
-        src={LogoS}
+        src={work3}
         alt="JavaScript,  Developer"
       />
 

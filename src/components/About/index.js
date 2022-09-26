@@ -124,7 +124,9 @@ const About = () => {
             />
           </h1>
           <p>My name is Tasneem Maqableh ,from Jordan. I have a bachelor degree in Telecommunication and software Engineering and i'm Passionate about learning new technologies in web development filed ,
-             and now i'm certified as javascript web developer from ASAC (ASAC linkedin ) .</p>
+             and now i'm certified as javascript web developer from ASAC (       
+                 <a href="https://www.linkedin.com/company/asacltuc?trk=public_profile_topcard-current-company" target="_blank" >ASAC linkedin</a> 
+ ) .</p>
           <p>
             I'm a very ambitious full stack web developer looking for a role in an
             established IT company with the opportunity to work with the latest

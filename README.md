@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
 ## Netlify Link Portfolio >>>
-[portfolio](https://632ed27f46da456dd0533dbc--merry-empanada-438283.netlify.app/)
+[portfolio](https://tasneem-portfolio.netlify.app)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
